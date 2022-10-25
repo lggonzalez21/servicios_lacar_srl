@@ -1,0 +1,9 @@
+html{
+    background: white;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}

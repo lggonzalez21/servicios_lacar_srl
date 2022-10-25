@@ -1,0 +1,16 @@
+.sectionConvenio{
+    text-align: center;
+    padding: 10px;
+    border-bottom: solid 2px rgb(68, 147, 205);
+    width: 90%;
+    margin: auto;
+}
+
+.sectionConvenio__title{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.sectionConvenio__img{
+    width: 95%;
+}

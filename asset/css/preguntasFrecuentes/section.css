@@ -1,0 +1,27 @@
+.section__div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    border-top: solid 2px rgb(68, 147, 205);
+    width: 90%;
+    margin: auto;
+}
+
+.section__title{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.section__descripcion{
+    margin-bottom: 20px;
+}
+
+.section__img{
+    width: 50%;
+    margin: auto;
+}
+
+.ultimo__div{
+    border-bottom: solid 2px rgb(68, 147, 205);
+}
