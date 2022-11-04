@@ -11,6 +11,8 @@
 .section__title{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
 }
 
 .section__descripcion{
@@ -24,4 +26,40 @@
 
 .ultimo__div{
     border-bottom: solid 2px rgb(68, 147, 205);
+}
+
+@media screen and (min-width: 728px){
+    .section__img{
+        width: 30%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .section{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .section__title{
+        font-size: 2rem;
+    }
+
+    .section__div{
+        width: 40%;
+        height: 450px;
+    }
+
+    .section__div2{
+        border-bottom: solid 2px rgb(68, 147, 205);
+    }
+
+    .section__img{
+        width: 50%;
+        margin: auto;
+    }
+
+    .ultimo__div{
+        margin-top: 20px;
+    }
 }

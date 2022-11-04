@@ -14,3 +14,9 @@
 .sectionConvenio__img{
     width: 95%;
 }
+
+@media screen and (min-width: 1024px){
+    .sectionConvenio{
+        width: 60%;
+    }
+}

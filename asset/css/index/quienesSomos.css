@@ -16,3 +16,9 @@
     width: 50%;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 1024px){
+    .sectionQuienesSomos{
+        width: 60%;
+    }
+}
